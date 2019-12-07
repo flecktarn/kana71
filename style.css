@@ -1,0 +1,426 @@
+body{
+	padding: 0;
+	margin: 0;
+	
+	
+}
+
+
+*{
+	font-family: 'Arial', sans-serif;
+
+}
+
+
+#icon{
+	display:block;
+	width: 100px;
+	margin: 30px auto;
+	
+}
+
+
+h3{
+	width: 100%;
+	text-align: center;
+}
+
+h3{
+	position:relative;
+	right: 8px;
+
+}
+
+button{
+	font-size: 15px;
+	display:block;
+	width: 500px;
+	margin:auto;
+	border:none;
+	background-color: lightgrey;
+	margin-top:10px;
+	padding: 15px;
+}
+
+button:hover{
+	cursor:pointer;
+	
+}
+
+
+
+
+
+
+table{
+	width: 800px;
+	text-align: center;
+	
+	margin: 20px auto;
+	
+}
+td{
+	border: 1px solid transparent;
+	width: 50px;
+	
+	color: black !important;
+	
+
+
+
+}
+
+.romalabel{
+	margin:0 ;
+	padding:  0;
+	
+	font-size: 15px;
+	font-weight:bold;
+	
+
+}
+
+.kanaSymbol{
+	font-weight:bold;
+	font-size: 30px;
+	cursor: pointer;
+	opacity: 0.5;
+	position:relative;
+	padding-top: 10px;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+
+}
+
+.emptyspace{
+	border:none;
+}
+
+
+
+
+ .kanaSymbol{
+	font-size: 15px;
+	
+	
+}
+
+
+h2{
+	color: #41bd3b;
+	font-weight: bold;
+
+}
+
+
+
+#kanaPrompt{
+	text-align: center;
+	font-size: 100px;
+	margin-bottom: 0;
+	font-family: meiryo;
+}
+
+#inputWrapper{
+	width: 800px;
+	margin:auto;
+	
+	position:relative;
+
+}
+
+#rate{
+	text-align: center;
+	position:absolute;
+	left: 75;
+	bottom: 15;
+	font-size: 30px;
+	
+	width: 200px;
+
+}
+
+#streak{
+	text-align: center;
+	position:absolute;
+	right: 75;
+	bottom: 15;
+	font-size: 30px;
+	
+	width: 200px;
+}
+
+#correctCount{
+	display:inline-block;
+	
+	width: 80px;
+	text-align: right;
+}
+
+#allCount{
+	display:inline-block;
+	
+	width: 80px;
+	text-align: left;
+}
+
+#kanaInput{
+	display:block;
+	width: 150px;
+	margin:0px auto;
+	font-size: 50px;
+	text-align: center;
+	
+	border: 1px solid grey;
+}
+
+
+
+
+
+
+#controls{
+	width: 800px;
+	margin:auto;
+	margin-top: 10px;
+	
+}
+
+#controls button{
+	display:inline-block;
+	
+	width: 800px;
+	margin-bottom: 10px;
+	
+}
+
+#controls a:hover{
+	color: #41bd3b;
+
+}
+
+#optionsButton{
+	margin-bottom: 0 !important;
+	z-index: 2;
+	text-align: left;
+	font-weight: bold;
+	position:relative;
+}
+
+#optionsIndicator{
+	position: absolute;
+	right: 0;
+	margin-right: 10px;
+}
+
+
+
+
+
+
+#optionsPanel{
+	padding-top: 20px;
+	display: block;
+	height: 800px;
+	width: 800px;
+	margin:auto;
+	box-sizing: border-box;
+	border: 1px solid lightgrey;
+	border-top: none;
+	
+	z-index: 1;
+	padding-left: 20px;
+	margin-bottom: 50px
+	
+
+	
+	
+}
+
+#optionsPanel input{
+	display:inline-block;
+	margin-left: 15px;
+	
+	
+}
+
+#optionsPanel input[type="number"]{
+	margin-left: 0px;
+	width: 45px;
+}
+
+#optionsPanel p{
+	display:inline-block;
+	margin-left: 20px;
+	position: relative;
+}
+
+#wrongPrompt{
+	height: 30px;
+	text-align: center;
+	color: red;
+	padding: 0;
+	margin: 0;
+	font-size: 20px;
+	position:relative;
+	font-weight :bold;
+	opacity: 0;
+	position:relative;
+	bottom: 15px;
+}
+
+#optionsPanel table{
+	width: 750px;
+	margin: 0;
+	margin-top: 10px;
+
+}
+
+#optionsPanel .romalabel{
+	text-align: center;
+	padding: 0;
+	padding-bottom: 3px;
+	margin: 0;
+	
+}
+
+#optionsPanel .kanaSymbol{
+	color: darkgrey;
+
+
+}
+
+#optionsPanel h3{
+	text-align: left;
+	margin-left: 10px;
+	margin-bottom: 5px;
+	display:inline;
+	font-size: 30px;
+}
+
+
+.columnToggle{
+	width: 100%;
+	height: 100%;
+	margin: auto;
+	
+	padding: 0;
+	font-size: 20px;
+	
+	border: none;
+	position:relative;
+	background-color: darkgrey;
+	color: white;
+
+
+
+	
+
+	
+
+}
+
+#optionsPanel table tr:first-child td{
+	border: none;
+
+	
+	overflow:hidden;
+}
+
+#optionsPanel a{
+	float:right;
+	margin-right: 30px;
+	font-weight: bold;
+	color: black;
+	position:relative;
+	top: 20px;
+}
+
+#optionspanel a:hover{
+	text-decoration: underline;
+	cursor:pointer;
+	
+}
+
+
+
+#optionsPanel .kanaSymbol:nth-child(3){
+
+}
+
+.activated{
+	
+	opacity: 1;
+	
+	border: 1px solid black;
+
+}
+
+td{
+ -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+
+input[disabled]{
+	cursor: not-allowed;
+}
+
+
+.colourtest{
+	width: 800px;
+	margin:auto;
+	text-align: center;
+	font-size: 30px;
+}
+
+
+#hoverInfo{
+	width: 100px;
+	height: 115px;
+	border: 1px solid black;
+	position:fixed;
+	background-color: white;
+	overflow:hidden;
+
+}
+
+
+
+
+
+.widebutton{
+	width: 725px;
+
+	
+	margin: 30px 10px;
+	
+}
+
+
+#optionsPanel .kanaSymbol .profBar{
+	position:absolute !important;
+	bottom: 0;
+	left: 0;
+	padding: 0;
+	margin: 0;
+	
+	
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	opacity: 0.65;
+	z-index: -1;
+}
+
+
